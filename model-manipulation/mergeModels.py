@@ -40,7 +40,7 @@ def save_merged_obj(merged_mesh, output_filename):
 if __name__ == "__main__":
 
 
-    file_prefix = "statue1-geometry"
+    file_prefix = "lotus"
     num_files = 3
 
     merged_mesh = merge_obj_files(file_prefix, num_files)

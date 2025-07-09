@@ -11,7 +11,7 @@ def compress_video(input_path, output_path, target_resolution=(640, 360), bitrat
     video_resized.write_videofile(output_path, bitrate=bitrate, codec='libx264')
 
 # Usage
-input_video_path = "C:/Users/harry/Videos/emergence.mp4"
-output_video_path = "C:/Users/harry/Videos/emergence2.mp4"
+input_video_path = "C:/Users/harry/Videos/Workouts/glutes.mp4"
+output_video_path = "C:/Users/harry/Videos/Workouts/ad/glutes.mp4"
 
 compress_video(input_video_path, output_video_path)
